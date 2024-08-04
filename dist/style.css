@@ -547,17 +547,9 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 .mt-1{
   margin-top: 0.25rem;
@@ -789,9 +781,6 @@ video {
 .text-center{
   text-align: center;
 }
-.font-grotesk{
-  font-family: Space Grotesk, sans-serif;
-}
 .font-poppins{
   font-family: Poppins, sans-serif;
 }
@@ -956,11 +945,6 @@ video {
 
   .sm\:top-6{
     top: 1.5rem;
-  }
-
-  .sm\:my-4{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
   }
 
   .sm\:my-2{
