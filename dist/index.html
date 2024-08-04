@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadine Cathouse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Welcome -->
+    <div id="welcome" class="bg-indigo-600 px-4 py-3 text-white font-quicksand">
+        <p class="text-center text-sm font-medium">
+          Selamat datang di Nadine Cathouse!
+          <a href="#catlist" class="inline-block underline">British Shorthair lucu untuk kamu ada disini.<a>
+        </p>
+    </div>
+
+    <!-- Header & CTA -->
+    <header class="bg-white">
+        <div class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12">
+            <div class="flex flex-col items-center gap-4 sm:flex-row sm:items-start sm:justify-between">
+                <div class="text-center sm:text-start">
+                    <h1 class="text-3xl font-bold font-poppins text-gray-800 sm:text-3xl">Nadine Cathouse</h1>
+        
+                    <p class="mt-1.5 text-sm font-quicksand text-gray-500">
+                        Pilihan British Shorthair lucu di Kota Malang 😺
+                    </p>
+                </div>
+        
+                <div class="flex items-center gap-4">
+                    <a  href="#adopt"
+                        class="inline-flex items-center justify-center gap-1.5 rounded border border-indigo-200 bg-white px-5 py-3 text-indigo-900 transition hover:text-indigo-700 focus:outline-none focus:ring"
+                        type="button">
+                        <span class="text-sm font-medium font-quicksand"> Cara Adopsi </span>
+                    </a>
+        
+                    <a  href="#catlist"
+                        class="inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium font-quicksand text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400"
+                        type="button">
+                        Lihat Kucingnya
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Header -->
+    <section class="overflow-hidden bg-white">
+        <div class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12">
+            <div class="flex flex-col-reverse items-center gap-4 sm:flex-row sm:items-center sm:justify-between ">
+                <div class="text-center px-8 sm:text-start sm:px-1">   
+                    <h2 class="text-3xl font-bold font-poppins text-gray-800 sm:text-4xl">
+                        Dapatkan Kucing British Shorthair Terbaik
+                    </h2>
+                
+                    <p class="text-gray-500 font-quicksand mt-4 md:block">
+                        Adopsi Kucing British Shorthair yang Ramah dan Menggemaskan
+                    </p>
+                
+                    <div class="mt-4">
+                        <a href="#catlist" class="inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium font-quicksand text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400">
+                            Temukan Disini
+                        </a>
+                    </div>
+                </div>
+            
+                <img src="https://i.ibb.co.com/cTXBjtm/Whats-App-Image-2024-08-03-at-13-44-54-7125ccdd.jpg" alt="British Shorthair" class="w-full h-72 object-cover rounded-md"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info dan keunggulan -->
+    <section class="bg-white text-gray-800">
+        <div class="mx-auto max-w-screen-lg px-4 py-12 sm:px-6 sm:py-24">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="text-3xl font-bold font-poppins sm:text-4xl">Fakta Menarik British Shorthair</h2>
+        
+                <p class="mt-4 text-gray-500 font-quicksand">
+                    Kucing jenis ini terkenal dengan bulu tebal, wajah bulat, dan mata yang indah. Pipinya yang gembul membuat tampilan yang menggemaskan.
+                </p>
+            </div>
+      
+            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="block rounded-xl border border-indigo-500 p-8 shadow-xl transition hover:border-gray-600/10 hover:shadow-indigo-500/10">         
+                    <h2 class="text-xl font-bold font-poppins text-indigo-600">Bersifat Tenang</h2>
+            
+                    <p class=" mt-4 text-sm font-quicksand text-gray-500">
+                        Kucing ini memiliki sifat yang tenang, suka bermain tapi tidak hiperaktif. Tak hanya itu, kucing ini memiliki sifat penyayang.
+                    </p>
+                </div>
+        
+                <div class="block rounded-xl border border-indigo-500 p-8 shadow-xl transition hover:border-gray-600/10 hover:shadow-indigo-500/10">         
+                    <h2 class="text-xl font-bold font-poppins text-indigo-600">Cerdas</h2>
+            
+                    <p class=" mt-4 text-sm font-quicksand text-gray-500">
+                        Kucing ini senanga bermain yang menantang kecerdasan mereka seperti teka-teki puzzle.
+                    </p>
+                </div>
+
+                <div class="block rounded-xl border border-indigo-500 p-8 shadow-xl transition hover:border-gray-600/10 hover:shadow-indigo-500/10">         
+                    <h2 class="text-xl font-bold font-poppins text-indigo-600">Berumur panjang</h2>
+            
+                    <p class=" mt-4 text-sm font-quicksand text-gray-500">
+                        Kucing ini diketahui mampu hidup hingga 20 tahun. Namun, tetap tergantung bagaimana perawatan yang diberikan ya.
+                    </p>
+                </div>
+        </div>
+    </section>
+
+    <!-- Cathouse List -->
+    <section id="catlist" class="bg-white text-gray-800">
+        <div class="mx-auto max-w-screen-lg px-4 py-12 sm:px-6 sm:py-24">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="text-3xl font-bold font-poppins sm:text-4xl">Cat List</h2>
+        
+                <p class="mt-4 text-gray-500 font-quicksand">
+                    Pilih kucing kesukaanmu disini.
+                </p>
+            </div>
+            
+            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="group block">
+                    <img src="https://i.ibb.co.com/R62fjYT/Whats-App-Image-2024-08-03-at-13-44-54-49ed6ad7.jpg" alt="Kitten Blue Eyes" class="aspect-square w-full rounded object-cover"/>
+                    
+                    <div class="flex items-start justify-between mt-3">
+                        <div> 
+                          <h3 class="font-medium font-poppins text-indigo-700 group-hover:underline group-hover:underline-offset-4">
+                            Kitten Blue Eyes
+                          </h3>
+                      
+                          <p class="mt-1 text-sm font-quicksand text-gray-700">Rp. 5.000.000,-</p>
+                        </div>
+
+                        <a href="https://wa.me/6281281920410" target="_blank" class="inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium font-quicksand text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400">
+                            Pesan
+                        </a>
+                    </div>
+                </div>
+
+                <div class="group block">
+                    <img src="https://i.ibb.co.com/x81NwgR/rsz-img-20240727-wa0003.jpg" alt="Kitten Lilac" class="aspect-square w-full rounded object-cover"/>
+                    
+                    <div class="flex items-start justify-between mt-3">
+                        <div> 
+                          <h3 class="font-medium font-poppins text-indigo-700 group-hover:underline group-hover:underline-offset-4">
+                            Kitten Lilac
+                          </h3>
+                      
+                          <p class="mt-1 text-sm font-quicksand text-gray-700">Rp. 5.200.000,-</p>
+                        </div>
+
+                        <a href="https://wa.me/6281281920410" target="_blank" class="inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium font-quicksand text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400">
+                            Pesan
+                        </a>
+                    </div>
+                </div>
+
+                <div class="group block">
+                    <img src="https://i.ibb.co.com/mRqP542/rsz-20240718-170555.jpg" alt="Adult Lilac" class="aspect-square w-full rounded object-cover"/>
+                    
+                    <div class="flex items-start justify-between mt-3">
+                        <div> 
+                          <h3 class="font-medium font-poppins text-indigo-700 group-hover:underline group-hover:underline-offset-4">
+                            Adult Lilac
+                          </h3>
+                      
+                          <p class="mt-1 text-sm font-quicksand text-gray-700">Rp. 6.500.000,-</p>
+                        </div>
+
+                        <a href="https://wa.me/6281281920410" target="_blank" class="inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium font-quicksand text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400">
+                            Pesan
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+
+    <!-- langkah dan persyaratan adopsi -->
+    <section id="adopt" class="bg-white text-gray-800">
+        <div class="mx-auto max-w-screen-lg px-4 py-12 sm:px-6 sm:py-24">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="text-3xl font-bold font-poppins sm:text-4xl">Cara Adopsi</h2>
+        
+                <p class="mt-4 text-gray-500 font-quicksand">
+                    Ikuti langkah cara adopsinya ya.
+                </p>
+            </div>
+
+            <div class="mt-8">
+                <h2 class="sr-only font-quicksand">Steps</h2>
+              
+                <div class="after:mt-4 after:block after:h-1 after:w-full after:rounded-lg after:bg-gray-200">
+                  <ol class="grid grid-cols-3 text-sm font-medium text-gray-500">
+                    <li class="relative flex justify-start text-blue-600">
+                      <span class="absolute -bottom-[1.75rem] start-0 rounded-full bg-blue-600 text-white">
+                        <svg
+                          class="h-5 w-5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor">
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"/>
+                        </svg>
+                      </span>
+              
+                      <span class="font-quicksand sm:block"> Pilih kucingmu </span>
+                    </li>
+              
+                    <li class="relative flex justify-center text-blue-600">
+                      <span
+                        class="absolute -bottom-[1.75rem] left-1/2 -translate-x-1/2 rounded-full bg-blue-600 text-white">
+                        <svg
+                          class="h-5 w-5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor">
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"/>
+                        </svg>
+                      </span>
+              
+                      <span class="font-quicksand sm:block"> Hubungi kami </span>
+                    </li>
+              
+                    <li class="relative flex justify-end text-blue-600">
+                      <span class="absolute -bottom-[1.75rem] end-0 rounded-full bg-blue-600 text-white">
+                        <svg
+                          class="h-5 w-5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor">
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"/>
+                        </svg>
+                      </span>
+              
+                      <span class="font-quicksand sm:block"> Kirim / COD </span>
+                    </li>
+                  </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-white text-gray-800">
+        <div class="mx-auto max-w-screen-lg px-4 py-12 sm:px-6 sm:py-24">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="text-3xl font-bold font-poppins sm:text-4xl">FAQs</h2>
+        
+                <p class="mt-4 text-gray-500 font-quicksand">
+                    Coba cari tahu dulu disini yuk.
+                </p>
+            </div>
+
+            <div class="space-y-4 mt-8 font-quicksand">
+                <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+                  <summary class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+                    <h2 class="font-medium">Lokasinya Nadine Cathouse dimana kak?</h2>
+              
+                    <svg
+                      class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+              
+                  <p class="mt-4 px-4 leading-relaxed text-gray-700">
+                    Lokasi kami ada di Jl.Danau Sentani Raya, Ruko Blok H4 No. E 29B, Kelurahan Madyopuro, Kecamatan Kedungkandang, Kota Malang, Jawa Timur.
+                  </p>
+                </details>
+              
+                <details class="group [&_summary::-webkit-details-marker]:hidden">
+                  <summary
+                    class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+                  >
+                    <h2 class="font-medium">Pure BSH atau mix BSH kak?</h2>
+              
+                    <svg
+                      class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+              
+                  <p class="mt-4 px-4 leading-relaxed text-gray-700">
+                    Kami menyediakan pure BSH dan mix BSH kak. Harap ditanyakan lebih lanjut melalui tombol pesan di cat list ya.
+                  </p>
+                </details>
+              </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100">
+        <div class="relative mx-auto max-w-screen-lg px-4 py-10 sm:px-6 sm:py-12">
+            <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+                <a class="inline-block rounded-full bg-indigo-600 p-2 text-white shadow transition hover:bg-indigo-500 sm:p-2"
+                href="#welcome">
+                <span class="sr-only">Back to top</span>
+        
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path
+                    fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd"/>
+                </svg>
+                </a>
+            </div>
+      
+            <div class="lg:flex lg:items-end lg:justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold font-poppins text-indigo-600 sm:text-3xl">Nadine Cathouse</h1>
+        
+                    <p class="mx-auto mt-6 max-w-md text-left leading-relaxed text-gray-500 font-quicksand">
+                        British Shorthair.
+                    </p>
+                </div>
+        
+                <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+                    <li>
+                        <a  href="https://www.facebook.com/profile.php?id=61563075946007"
+                            rel="noreferrer"
+                            target="_blank"
+                            class="text-gray-500 transition hover:text-gray-700/75">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                fill-rule="evenodd"
+                                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a  href="https://www.instagram.com/kucingbsh_malang/"
+                            rel="noreferrer"
+                            target="_blank"
+                            class="text-gray-500 transition hover:text-gray-700/75">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                fill-rule="evenodd"
+                                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a  href="https://www.tiktok.com/@nadine.cathouse"
+                            rel="noreferrer"
+                            target="_blank"
+                            class="text-gray-500 transition hover:text-gray-700/75">
+                            <span class="sr-only">Tiktok</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 50 50" aria-hidden="true">
+                            <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <hr class="my-8 sm:my-2">
+
+            <p class="text-center text-sm font-quicksand text-gray-500 lg:text-right">
+                Copyright &copy; 2024. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
