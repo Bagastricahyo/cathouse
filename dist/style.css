@@ -947,11 +947,6 @@ video {
     top: 1.5rem;
   }
 
-  .sm\:my-12{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
   .sm\:block{
     display: block;
   }
